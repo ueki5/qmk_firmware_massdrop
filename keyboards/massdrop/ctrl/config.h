@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // key combo
 #define COMBO_COUNT 14
-#define COMBO_TERM  200
+#define COMBO_TERM  1000
 #define EXTRA_EXTRA_LONG_COMBOS
 
 /* MCU Port name definitions */
