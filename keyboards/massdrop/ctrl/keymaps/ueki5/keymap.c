@@ -77,9 +77,9 @@ combo_t key_combos[COMBO_COUNT] = {
   [COMBO_13] = COMBO(combo_13, JP_COLN),
   [COMBO_14] = COMBO(combo_14, JP_DQUO)
 };
-void process_combo_event(uint8_t combo_index, bool pressed) {
+// void process_combo_event(uint8_t combo_index, bool pressed) {
 // dprintf("process_combo_event combo_index=%u,pressed=%u\n", combo_index, pressed);
-  switch(combo_index) {
+//   switch(combo_index) {
     // case COMBO_01:
     //   if (pressed) {
     //     tap_code16(LSFT(KC_C));
@@ -95,8 +95,8 @@ void process_combo_event(uint8_t combo_index, bool pressed) {
     //     tap_code16(LSFT(KC_E));
     //   }
     //   break;
-  }
-}
+//   }
+// }
 void keyboard_post_init_user(void) {
   // Customise these values to desired behaviour
   debug_enable=true;
